@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['0', 'bird', 'flock of birds', 'flying wing', 'hedef', 'iha', 'insansiz-hava-araci', 'plane', 'uav']
+
+roboflow:
+  workspace: direko-vths3
+  project: plane-finder-merge
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/direko-vths3/plane-finder-merge/dataset/1
